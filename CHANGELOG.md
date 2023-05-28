@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - CHANGELOG.md 파일 도입.
 - vite 로 프로젝트 스캐폴딩. 
-- release-please 사용.
+- release-please 사용..
 
 ### Changed
  
