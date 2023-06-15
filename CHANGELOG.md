@@ -15,3 +15,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
  
 ### Fixed
+
+## [0.2.0] - 2023-06-15
+프로젝트 스캐폴딩 
+ 
+### Added
+- Style css vars (#3)
+
+### Changed
+ 
+### Fixed

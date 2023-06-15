@@ -1,0 +1,94 @@
+@font-face {
+    font-family:"NunitoSans-Black";
+    src: local("NunitoSans-Black"),
+    url("assets/fonts/NunitoSans_10pt-Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"NunitoSans-Bold";
+    src: local("NunitoSans-Bold"),
+    url("assets/fonts/NunitoSans_10pt-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family:"NunitoSans-ExtraBold";
+    src: local("NunitoSans-ExtraBold"),
+    url("assets/fonts/NunitoSans_10pt-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"NunitoSans-ExtraLight";
+    src: local("NunitoSans-ExtraLight"),
+    url("assets/fonts/NunitoSans_10pt-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"NunitoSans-SemiBold";
+    src: local("NunitoSans-SemiBold"),
+    url("assets/fonts/NunitoSans_10pt-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"NunitoSans-Light";
+    src: local("NunitoSans-Light"),
+    url("assets/fonts/NunitoSans_10pt-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"NunitoSans-Medium";
+    src: local("NunitoSans-Medium"),
+    url("assets/fonts/NunitoSans_10pt-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"NunitoSans-Regular";
+    src: local("NunitoSans-Regular"),
+    url("assets/fonts/NunitoSans_10pt-Regular.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family:"NunitoSans-SemiCondensed-Black";
+    src: local("NunitoSans-SemiCondensed-Black"),
+    url("assets/fonts/NunitoSans_10pt-SemiCondensed-Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"NunitoSans-SemiCondensed-Bold";
+    src: local("NunitoSans-SemiCondensed-Bold"),
+    url("assets/fonts/NunitoSans_10pt-SemiCondensed-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family:"NunitoSans-SemiCondensed-ExtraBold";
+    src: local("NunitoSans-SemiCondensed-ExtraBold"),
+    url("assets/fonts/NunitoSans_10pt-SemiCondensed-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"NunitoSans-SemiCondensed-ExtraLight";
+    src: local("NunitoSans-SemiCondensed-ExtraLight"),
+    url("assets/fonts/NunitoSans_10pt-SemiCondensed-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"NunitoSans-SemiCondensed-SemiBold";
+    src: local("NunitoSans-SemiCondensed-SemiBold"),
+    url("assets/fonts/NunitoSans_10pt-SemiCondensed-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"NunitoSans-SemiCondensed-Light";
+    src: local("NunitoSans-SemiCondensed-Light"),
+    url("assets/fonts/NunitoSans_10pt-SemiCondensed-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"NunitoSans-SemiCondensed-Medium";
+    src: local("NunitoSans-SemiCondensed-Medium"),
+    url("assets/fonts/NunitoSans_10pt-SemiCondensed-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family:"NunitoSans-SemiCondensed-Regular";
+    src: local("NunitoSans-SemiCondensed-Regular"),
+    url("assets/fonts/NunitoSans_10pt-SemiCondensed-Regular.ttf") format("truetype");
+}

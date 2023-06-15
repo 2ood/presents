@@ -30,6 +30,9 @@ Redux, useRef, and etc.
 
 [Using Databases with Vercel](https://vercel.com/guides/using-databases-with-vercel)
 
+-> Change to GCP VM instance server.
+Vercel only supports serverless function like.
+
 
 # 개발 능력 (연습할)
 
@@ -39,9 +42,11 @@ eventListener 함수들 하나로 묶어놓기
 
 스타일들 하나로 묶어놓기
 
-
 ### 2. TDD 개발
 
 ### 3. 버전 번호 트래킹
 
-### 4. 
+### 4. gitflow 준수
+
+git strategy 는 git flow 로 한다. 
+

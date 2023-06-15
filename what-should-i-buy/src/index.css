@@ -1,69 +1,88 @@
+/* 
+* This file defines the project-wide style variables.
+* This file also initializes all the pre-defined browser style settings. 
+*/
+
+@import "fonts.css";
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  /*font-sizes*/
+  --font-size-h1 : 106px;
+  --font-size-h2 : 66px;
+  --font-size-h3 : 53px;
+  --font-size-h4 : 37px;
+  --font-size-h5 : 26px;
+  --font-size-h6 : 22px;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --font-size-subtitle1 : 18px;
+  --font-size-subtitle2 : 15px;
+  --font-size-body1 : 18px;
+  --font-size-body2 : 15px;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  /*font-styles*/
+  --font-style-family : "NunitoSans-Medium";
+  --font-style-generic-family : sans-serif;
+  --font-style-websafe-family : Roboto, Arial;
+
+
+  /*color codes*/
+  --color-primary : blue;
+  --color-primary-dark : indigo;
+  --color-primary-light : skyblue;
+  --color-secondary : gray;
+  --color-secondary-dark : lightgray;
+  --color-secondary-light : white;
+  --color-accent : red;
+  --color-accent-dark : #800020; /*burgundy*/
+  --color-accent-dark : lightpink;
+
+  /*view width breakpoint*/
+  /*This project supports media types in 4 groups*/
+  /*small - medium - large - extralarge*/
+  --breakpoint-vw-small-to-medium: 576px;
+  --breakpoint-vw-medium-to-large : 768px;
+  --breakpoint-vw-large-to-extralarge : 992px;
+
+
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+  font-family: var(--font-style-family), var(--font-style-websafe-family), var(--font-style-generic-family);
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
+h1 {font-size : 106px; font-weight: lighter;}
+h2 {font-size : 66px; font-weight: lighter;}
+h3 {font-size : 53px; font-weight: normal;}
+h4 {font-size : 37px; font-weight: normal;}
+h5 {font-size : 26px; font-weight: normal;}
+h6 {font-size : 22px; font-weight: medium;}
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+subtitle1 {font-size : 18px; font-weight: normal;}
+subtitle2 {font-size : 15px; font-weight: medium;}
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  text-transform: capitalize;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+/*mobile*/
+@media (max-width : 576px){
+
+}
+
+/*tablet*/
+@media (max-width : 768px) {
+
+}
+
+/*small pc screen*/
+@media (max-width : 992px) {
+
+}
+
+/*pc*/
+@media (min-width : 993px) {
+
 }
